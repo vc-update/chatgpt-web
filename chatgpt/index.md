@@ -80,6 +80,10 @@ updated: 2026-08-27
 
 - [ChatGPT聊天记录怎么导出？网页版全部数据、单个对话与备份方法【2026年9月】](/chatgpt/chatgpt-web-chat-history-export-backup-markdown-pdf-20260912)：区分全部数据导出、单个对话保存、打印 PDF、分享链接和隐私备份。
 
+## 2026年9月13日：网页搜索与来源核验专题
+
+- [ChatGPT网页搜索怎么用？联网搜索入口、引用来源与结果核验【2026年9月】](/chatgpt/chatgpt-search-web-browse-guide-20260913)：说明搜索入口、提问模板、引用复核、搜索失败排查和隐私边界。
+
 <!-- BING-SEO-2026-07-30-START -->
 ## 2026年7月30日：记忆、研究与代理模式
 

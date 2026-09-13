@@ -14,11 +14,16 @@ outline: deep
 ## 最近更新
 
 <!-- LATEST_FEED_START -->
-<div class="latest-feed" aria-label="按更新时间排列的文章列表" data-article-count="111">
+<div class="latest-feed" aria-label="按更新时间排列的文章列表" data-article-count="112">
   <article class="latest-feed-item">
     <div class="latest-feed-meta"><span>ChatGPT</span><time datetime="2026-09-13">2026-09-13</time></div>
     <h2><a href="/chatgpt/chatgpt-web-chat-history-export-backup-markdown-pdf-20260912">ChatGPT聊天记录怎么导出？网页版全部数据、单个对话与备份方法【2026年9月】</a></h2>
     <p>ChatGPT聊天记录怎么导出？本文区分全部数据导出、单个对话保存、浏览器打印和本地备份，整理网页版操作步骤、导出失败排查、隐私检查与恢复边界。</p>
+  </article>
+  <article class="latest-feed-item">
+    <div class="latest-feed-meta"><span>ChatGPT</span><time datetime="2026-09-13">2026-09-13</time></div>
+    <h2><a href="/chatgpt/chatgpt-search-web-browse-guide-20260913">ChatGPT网页搜索怎么用？联网搜索入口、引用来源与结果核验【2026年9月】</a></h2>
+    <p>ChatGPT网页搜索怎么开启？本文说明联网搜索入口、提问方式、引用来源、搜索失败排查与隐私边界，帮助你核验时效性信息。</p>
   </article>
   <article class="latest-feed-item">
     <div class="latest-feed-meta"><span>Claude</span><time datetime="2026-09-13">2026-09-13</time></div>
