@@ -1,0 +1,105 @@
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
+
+const siteUrl = 'https://www.chatgpt-web.com'
+const publicDir = 'public'
+const distDir = '.vitepress/dist'
+const sitemapXml = await readFile(`${distDir}/sitemap.xml`, 'utf8')
+const urls = [...sitemapXml.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => match[1])
+
+const coreLabels = new Map([
+  ['/', 'ChatGPT 网页版教程首页'],
+  ['/chatgpt', 'ChatGPT 网页版与中文版教程总览'],
+  ['/latest', 'AI 工具最新更新与教程列表'],
+  ['/chatgpt/chatgpt-webpage-how-to-use-2026', 'ChatGPT 网页版使用教程、ChatGPT 官方入口（2026 国内完整指南）'],
+  ['/chatgpt/chatgpt-web-entrance-china-online-tutorial-2026', 'ChatGPT 网页版入口与国内在线使用教程'],
+  ['/chatgpt/chatgpt-official-entry-2026-domestic-chinese-complete-guide-20260720', 'ChatGPT 官网入口2026：国内使用、中文版与网页版核验指南'],
+  ['/chatgpt/chatgpt-web-version-mobile-browser-tutorial-2026', 'ChatGPT 手机网页版与浏览器使用教程'],
+  ['/chatgpt/chatgpt-web-version-free-guide-2026', 'ChatGPT 网页版免费使用与电脑手机教程'],
+  ['/chatgpt/chatgpt-web-no-download-how-to-use-2026', 'ChatGPT 网页版免下载在线使用教程'],
+  ['/chatgpt/chatgpt-web-login-entry-loop-white-screen-cookie-20260723', 'ChatGPT 网页版登录循环、白屏与 Cookie 排查'],
+  ['/chatgpt/chatgpt-web-page-lag-long-chat-browser-performance-20260825', 'ChatGPT 网页版卡顿、长对话与浏览器性能排查'],
+  ['/chatgpt/chatgpt-web-copy-paste-failed-browser-permission-20260825', 'ChatGPT 网页版复制粘贴与剪贴板排查'],
+  ['/chatgpt/chatgpt-web-line-break-shortcut-mobile-desktop-20260825', 'ChatGPT 网页版换行快捷键与发送设置'],
+  ['/chatgpt/chatgpt-web-chat-history-missing-login-browser-session-export-check-20260719', 'ChatGPT 聊天记录消失、登录方式与浏览器会话排查'],
+  ['/chatgpt/chatgpt-web-voice-microphone-permission-no-sound-browser-troubleshoot-20260720', 'ChatGPT 网页版语音、麦克风没声音与浏览器排查'],
+  ['/chatgpt/chatgpt-app-download-windows-macos-ios-android-2026', 'ChatGPT 下载与全平台安装教程'],
+  ['/chatgpt/chatgpt-desktop-app-download-work-codex-20260907', 'ChatGPT 桌面 App 下载、Work 与 Codex 入口区别'],
+  ['/chatgpt/chatgpt-guanwang-dabukai-access-denied-jiejue-2026', 'ChatGPT 官网打不开与 Access Denied 排查'],
+  ['/chatgpt/chatgpt-image-2-web-entry-gpt-image-2-generate-edit-prompt-limit-2026-07-02', 'ChatGPT Image 2 网页入口、改图与限制'],
+  ['/chatgpt/chatgpt-zhuce-jiaocheng-guonei-2026', 'ChatGPT注册登录教程与官网入口核验'],
+  ['/chatgpt/chatgpt-api-key-how-to-get-official-price-call-zeoapi-2026-07-02', 'ChatGPT API Key 获取与调用教程'],
+  ['/chatgpt/gpt-6-astra-guonei-shiyong-kankan-budao-model-20260906', 'GPT-6 Astra 国内使用、模型菜单与账号核验'],
+  ['/chatgpt/gpt-6-astra-official-entry-publish-page-api-check-20260906', 'GPT-6 Astra 官方入口、发布页与 API 核验'],
+  ['/chatgpt/chatgpt-guanwang-zuixin-dizhi-zhongwenban-wangyeban-20260906', 'ChatGPT 官网最新地址、中文版与网页版辨别'],
+  ['/chatgpt/gpt-claude-gemini-grok-model-comparison-china-2026-07', 'ChatGPT、Gemini、Claude、Grok 多模型对比'],
+  ['/claude/claude-code-install-windows-macos-vscode-domestic-guide-2026-07', 'Claude Code Windows、macOS 与 VS Code 安装教程'],
+  ['/gemini/gemini-official-entry-chinese-web-domestic-guide-2026-07', 'Gemini 官网入口、中文版与国内访问核验'],
+  ['/grok/grok-official-entry-grok-com-xai-chinese-domestic-guide-2026-07', 'Grok 官网、grok.com 与 x.ai 网页版入口核验'],
+  ['/gemini/gemini-cli-install-use-windows-macos-api-20260909', 'Gemini CLI 安装、终端使用与 API 区别'],
+  ['/chatgpt/ai-coding-tools-claude-code-gemini-cli-codex-api-20260909', 'AI 编程工具、Claude Code、Gemini CLI 与 Codex 对比'],
+  ['/chatgpt/ai-agent-chatgpt-work-codex-tools-guide-20260909', 'AI Agent、ChatGPT Work 与 Codex 选择指南'],
+  ['/chatgpt/gpt-images-2-5-official-entry-verification-prompt-guide-20260909', 'GPT Images 2.5 与 ChatGPT 图片生成核验教程'],
+])
+
+const corePaths = new Set(coreLabels.keys())
+
+function labelForUrl(url) {
+  const pathname = new URL(url).pathname.replace(/\/$/, '') || '/'
+  return coreLabels.get(pathname) || pathname
+}
+
+function escapeHtml(value) {
+  return value
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+}
+
+const sitemapText = `${urls.join('\n')}\n`
+const coreUrls = urls.filter((url) => {
+  const pathname = new URL(url).pathname.replace(/\/$/, '') || '/'
+  return corePaths.has(pathname)
+})
+const llmsText = `# ChatGPT 网页版中文教程
+
+> 独立中文教程站，聚焦 ChatGPT 网页版官网入口、免下载在线使用、手机电脑登录、中文界面、文件图片语音、模型核验与常见故障排查。本站不是 OpenAI 官方网站，也不提供模型对话服务。
+
+## 核心页面
+
+${coreUrls.map((url) => `- [${labelForUrl(url)}](${url})`).join('\n')}
+
+## 官方核验来源
+
+- [ChatGPT 官网](https://chatgpt.com/)
+- [OpenAI 帮助中心](https://help.openai.com/)
+- [OpenAI 服务状态](https://status.openai.com/)
+`
+const sitemapHtml = `<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,follow">
+  <link rel="canonical" href="${siteUrl}/sitemap">
+  <title>ChatGPT网页版教程站点地图</title>
+</head>
+<body>
+  <main>
+    <h1>ChatGPT网页版教程站点地图</h1>
+    <p>共 ${urls.length} 个 canonical 页面。正式 XML Sitemap：<a href="${siteUrl}/sitemap.xml">${siteUrl}/sitemap.xml</a></p>
+    <ul>${urls.map((url) => `<li><a href="${escapeHtml(url)}">${escapeHtml(url)}</a></li>`).join('\n')}</ul>
+  </main>
+</body>
+</html>
+`
+
+await mkdir(publicDir, { recursive: true })
+await mkdir(distDir, { recursive: true })
+for (const dir of [publicDir, distDir]) {
+  await writeFile(`${dir}/sitemap.txt`, sitemapText, 'utf8')
+  await writeFile(`${dir}/sitemap.html`, sitemapHtml, 'utf8')
+  await writeFile(`${dir}/llms.txt`, llmsText, 'utf8')
+}
+
+console.log(`Synced helper sitemaps with ${urls.length} canonical URLs and ${coreUrls.length} llms.txt entries.`)

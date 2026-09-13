@@ -1,0 +1,22 @@
+{
+  "name": "chatgpt-web",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "postcss": "^8.5.25",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.26"
+  },
+  "scripts": {
+    "build": "npm run seo:latest && vitepress build && node scripts/sync-helper-sitemaps.mjs",
+    "docs:dev": "vitepress dev",
+    "docs:build": "npm run seo:latest && vitepress build",
+    "docs:preview": "vitepress preview",
+    "seo:latest": "node scripts/sync-latest-index.mjs",
+    "seo:content-hygiene": "node scripts/content-hygiene.mjs",
+    "seo:qa": "node scripts/seo-qa.mjs"
+  },
+  "dependencies": {
+    "lucide-vue-next": "^0.468.0"
+  }
+}

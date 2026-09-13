@@ -1,0 +1,345 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".vitepress/dist",
+  "framework": "vitepress",
+  "installCommand": "npm install",
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/chatgpt/chatgpt-web-official-entry-domestic-chinese-mirror-no-download-online-20260709-4",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-entry-online-chinese-official-mirror-tutorial-20260709-2",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-online-entry-chinese-mirror-no-download-guide-20260709",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-entry-chinese-online-mirror-desktop-mobile-20260708",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-version-entry-china-2026-20260708-1",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-entry-china-online-2026",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-version-entry-china-2026",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-version-official-entry-guide-2026",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-no-download-online-guide-2026",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-version-no-download-guide-2026",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-version-online-entry-2026",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-version-entry-2026",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-version-guide-2026",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-version-china-guide-2026",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-online-use-login-free-2026-06",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-wangyeban-online-computer-phone-2026-06",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-login-free-mobile-desktop-2026-06",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-entry-login-online-free-2026-06",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-entry-official-login-chinese-no-download-2026-07",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-how-to-use-official-chinese-no-download-2026",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-webpage-entrance-2026-online-no-download-guide",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-entry-online-chinese-multimodel-2026",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-entrance-online-chinese-guide-2026",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-online-entry-web-version-chinese-2026",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-version-china-entry-mobile-browser-2026",
+      "destination": "/chatgpt/chatgpt-web-version-mobile-browser-tutorial-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-mobile-browser-chinese-entry-2026",
+      "destination": "/chatgpt/chatgpt-web-version-mobile-browser-tutorial-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-official-chinese-ultimate-guide-gpt56-gpt5-gpt4o-20260720",
+      "destination": "/chatgpt/chatgpt-official-entry-2026-domestic-chinese-complete-guide-20260720",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-official-chinese-gpt5-domestic-no-vpn-guide-20260720",
+      "destination": "/chatgpt/chatgpt-official-entry-2026-domestic-chinese-complete-guide-20260720",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-official-chinese-ultimate-guide-gpt5-gpt4o-mirror-register-20260711",
+      "destination": "/chatgpt/chatgpt-official-entry-2026-domestic-chinese-complete-guide-20260720",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-official-url-login-entry-chinese-version-20260720",
+      "destination": "/chatgpt/chatgpt-official-entry-2026-domestic-chinese-complete-guide-20260720",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-official-website-login-entry-2026",
+      "destination": "/chatgpt/chatgpt-official-entry-2026-domestic-chinese-complete-guide-20260720",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-login-entry-official-url-web-domestic-2026",
+      "destination": "/chatgpt/chatgpt-official-entry-2026-domestic-chinese-complete-guide-20260720",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-guanwang-rukou-zhongwenban-webban-2026",
+      "destination": "/chatgpt/chatgpt-official-entry-2026-domestic-chinese-complete-guide-20260720",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-guanwang-wangyeban-rukou-jiaocheng-2026",
+      "destination": "/chatgpt/chatgpt-official-entry-2026-domestic-chinese-complete-guide-20260720",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-chinese-entrance-guide-2026",
+      "destination": "/chatgpt/chatgpt-official-entry-2026-domestic-chinese-complete-guide-20260720",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-chinese-version-online-use-2026",
+      "destination": "/chatgpt/chatgpt-official-entry-2026-domestic-chinese-complete-guide-20260720",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-chinese-how-to-use-2026",
+      "destination": "/chatgpt/chatgpt-official-entry-2026-domestic-chinese-complete-guide-20260720",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-official-not-open-web-login-failed-captcha-mirror-2026-07-02",
+      "destination": "/chatgpt/chatgpt-guanwang-dabukai-access-denied-jiejue-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-login-failed-access-denied-account-fix-2026-06",
+      "destination": "/chatgpt/chatgpt-login-failed-access-denied-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-login-access-denied-captcha-phone-fix-2026-06",
+      "destination": "/chatgpt/chatgpt-login-failed-access-denied-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-api-key-official-price-call-zeoapi-guide-2026-07",
+      "destination": "/chatgpt/chatgpt-api-key-how-to-get-official-price-call-zeoapi-2026-07-02",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/gpt-claude-gemini-grok-model-choice-2026-06",
+      "destination": "/chatgpt/gpt-claude-gemini-grok-model-comparison-china-2026-07",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/ai-moxing-duibi-gpt-claude-gemini-grok-2026",
+      "destination": "/chatgpt/gpt-claude-gemini-grok-model-comparison-china-2026-07",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-entry-where-official-login-online-chinese-fix-2026-07-02",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-vs-app-official-desktop-mobile-china-2026-07-02",
+      "destination": "/chatgpt/chatgpt-app-download-windows-macos-ios-android-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-online-free-web-official-mirror-chinese-tools-compare-2026-07-02",
+      "destination": "/chatgpt/chatgpt-web-version-free-guide-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-online-free-web-chinese-official-mirror-2026-07",
+      "destination": "/chatgpt/chatgpt-web-version-free-guide-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-official-web-login-failed-domestic-mirror-2026-07",
+      "destination": "/chatgpt/chatgpt-guanwang-dabukai-access-denied-jiejue-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-image-2-web-gpt-image-2-prompt-free-guide-2026-07",
+      "destination": "/chatgpt/chatgpt-image-2-web-entry-gpt-image-2-generate-edit-prompt-limit-2026-07-02",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-gpt56-domestic-online-chinese-entry-no-download-mirror-20260710",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-no-download-entry-chinese-mirror-gpt56-online-guide-20260710-2",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-official-entry-chinese-mirror-no-download-online-guide-20260710-1",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-entry-chinese-official-domestic-mirror-gpt-image-2-online-20260709-3",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-mobile-official-entry-2026",
+      "destination": "/chatgpt/chatgpt-web-version-mobile-browser-tutorial-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-desktop-download-vs-web-version-windows-mac-2026",
+      "destination": "/chatgpt/chatgpt-app-download-windows-macos-ios-android-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-login-entry-browser-history-troubleshoot-20260719",
+      "destination": "/chatgpt/chatgpt-webpage-how-to-use-2026",
+      "permanent": true
+    },
+    {
+      "source": "/chatgpt/chatgpt-web-message-send-failed-network-session-file-status-20260716",
+      "destination": "/chatgpt/chatgpt-free-quota-message-attachment-limit-recovery-20260728",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "chatgpt-web.com"
+        }
+      ],
+      "destination": "https://www.chatgpt-web.com/$1",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data: https:; font-src 'self' data: https:; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; connect-src 'self' https:; object-src 'none'"
+        }
+      ]
+    }
+  ]
+}
