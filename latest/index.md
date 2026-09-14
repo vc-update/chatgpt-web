@@ -14,7 +14,12 @@ outline: deep
 ## 最近更新
 
 <!-- LATEST_FEED_START -->
-<div class="latest-feed" aria-label="按更新时间排列的文章列表" data-article-count="112">
+<div class="latest-feed" aria-label="按更新时间排列的文章列表" data-article-count="113">
+  <article class="latest-feed-item">
+    <div class="latest-feed-meta"><span>ChatGPT</span><time datetime="2026-09-14">2026-09-14</time></div>
+    <h2><a href="/chatgpt/chatgpt-plus-cancel-subscription-refund-apple-google-billing-20260914">ChatGPT Plus怎么取消订阅？退款条件、苹果谷歌渠道与扣费排查【2026年9月】</a></h2>
+    <p>ChatGPT Plus取消订阅要先分清购买渠道：官网、App Store 与 Google Play 的取消入口完全不同。本文说明三种渠道的取消步骤、取消后额度何时失效、退款能不能申请、重复扣费与代充售后的处理边界。</p>
+  </article>
   <article class="latest-feed-item">
     <div class="latest-feed-meta"><span>ChatGPT</span><time datetime="2026-09-13">2026-09-13</time></div>
     <h2><a href="/chatgpt/chatgpt-web-chat-history-export-backup-markdown-pdf-20260912">ChatGPT聊天记录怎么导出？网页版全部数据、单个对话与备份方法【2026年9月】</a></h2>

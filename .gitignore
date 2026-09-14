@@ -5,6 +5,9 @@ node_modules
 *.log
 .DS_Store
 
+# Local-only credentials
+.secrets/
+
 # Local-only data and audit artifacts
 research/
 internal/
