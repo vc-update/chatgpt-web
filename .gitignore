@@ -24,3 +24,7 @@ reference-home*.png
 preview*.png
 
 .vercel
+
+# Never publish a Bing Webmaster API key as an IndexNow key file.
+# IndexNow key files must be added explicitly with: git add -f docs/public/<key>.txt
+**/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f].txt
