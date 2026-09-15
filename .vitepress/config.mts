@@ -261,6 +261,7 @@ const articleSidebar = [
     "text": "ChatGPT 网页版与中文版",
     "collapsed": false,
     "items": [
+      {"text":"ChatGPT账号被封了怎么办？封禁与打不开的区分、申诉流程与账号安全排查【2026年9月】","link":"/chatgpt/chatgpt-account-banned-suspended-appeal-security-check-20260915"},
       {"text":"ChatGPT Plus怎么取消订阅？退款条件、苹果谷歌渠道与扣费排查【2026年9月】","link":"/chatgpt/chatgpt-plus-cancel-subscription-refund-apple-google-billing-20260914"},
       {"text":"ChatGPT Images 2.5怎么用？网页版生图、图片编辑与中文提示词教程【2026年9月】","link":"/chatgpt/chatgpt-images-2-5-web-generate-edit-prompt-guide-20260909"},
       {"text":"ChatGPT网页版入口：Work模式、6 Astra Ultra与官网登录核验教程【2026年9月】","link":"/chatgpt/chatgpt-web-entry-work-6-astra-ultra-login-guide-202609"},

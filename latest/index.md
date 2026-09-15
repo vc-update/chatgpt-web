@@ -14,7 +14,12 @@ outline: deep
 ## 最近更新
 
 <!-- LATEST_FEED_START -->
-<div class="latest-feed" aria-label="按更新时间排列的文章列表" data-article-count="113">
+<div class="latest-feed" aria-label="按更新时间排列的文章列表" data-article-count="114">
+  <article class="latest-feed-item">
+    <div class="latest-feed-meta"><span>ChatGPT</span><time datetime="2026-09-15">2026-09-15</time></div>
+    <h2><a href="/chatgpt/chatgpt-account-banned-suspended-appeal-security-check-20260915">ChatGPT账号被封了怎么办？封禁与打不开的区分、申诉流程与账号安全排查【2026年9月】</a></h2>
+    <p>ChatGPT账号被封了怎么办？本文先教你区分真封禁、网络问题和登录故障这三种完全不同的情况，再说明常见封禁原因、申诉入口与写法、申诉前该保留什么，以及双重验证和异常登录的自查方法。</p>
+  </article>
   <article class="latest-feed-item">
     <div class="latest-feed-meta"><span>ChatGPT</span><time datetime="2026-09-14">2026-09-14</time></div>
     <h2><a href="/chatgpt/chatgpt-plus-cancel-subscription-refund-apple-google-billing-20260914">ChatGPT Plus怎么取消订阅？退款条件、苹果谷歌渠道与扣费排查【2026年9月】</a></h2>
