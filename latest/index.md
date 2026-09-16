@@ -14,11 +14,16 @@ outline: deep
 ## 最近更新
 
 <!-- LATEST_FEED_START -->
-<div class="latest-feed" aria-label="按更新时间排列的文章列表" data-article-count="115">
+<div class="latest-feed" aria-label="按更新时间排列的文章列表" data-article-count="116">
   <article class="latest-feed-item">
     <div class="latest-feed-meta"><span>ChatGPT</span><time datetime="2026-09-16">2026-09-16</time></div>
     <h2><a href="/chatgpt/chatgpt-chinese-free-guide-mirror-gpt-6-20260916">ChatGPT 中文版：免费使用指南与镜像网站核验，GPT-6 能不能用怎么判断（2026最新）</a></h2>
     <p>ChatGPT 中文版怎么免费用？本文用三分钟讲清官网和第三方平台的区别、免费额度到底有多少、镜像网站该怎么核验安全性，以及 GPT-6 这类新模型在哪些入口能用、怎么自己确认，不靠截图下结论。</p>
+  </article>
+  <article class="latest-feed-item">
+    <div class="latest-feed-meta"><span>Gemini</span><time datetime="2026-09-16">2026-09-16</time></div>
+    <h2><a href="/gemini/gemini-free-vs-paid-ai-pro-ultra-plan-comparison-20260916">Gemini免费版和付费版有什么区别？Google AI Pro、Ultra 套餐与额度对比【2026年9月】</a></h2>
+    <p>Gemini免费版和付费版有什么区别？本文对比免费层能做什么、付费套餐多出哪些模型和额度、存储空间怎么算，并说明升级前该怎么按真实用量判断，以及学生优惠和第三方平台的边界。</p>
   </article>
   <article class="latest-feed-item">
     <div class="latest-feed-meta"><span>ChatGPT</span><time datetime="2026-09-15">2026-09-15</time></div>

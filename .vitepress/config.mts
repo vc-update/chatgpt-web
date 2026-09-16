@@ -690,6 +690,7 @@ const articleSidebar = [
     "text": "Gemini 教程",
     "collapsed": false,
     "items": [
+      {"text":"Gemini免费版和付费版有什么区别？Google AI Pro、Ultra 套餐与额度对比【2026年9月】","link":"/gemini/gemini-free-vs-paid-ai-pro-ultra-plan-comparison-20260916"},
       {"text":"Gemini CLI安装使用教程：官网、Windows、macOS、终端命令与API区别【2026年9月】","link":"/gemini/gemini-cli-install-use-windows-macos-api-20260909"},
       {"text":"Gemini官网入口：官方网址、中文版网页登录与国内访问核验【2026年8月】","link":"/gemini/gemini-official-entry-chinese-web-domestic-guide-2026-07"},
       
