@@ -14,7 +14,12 @@ outline: deep
 ## 最近更新
 
 <!-- LATEST_FEED_START -->
-<div class="latest-feed" aria-label="按更新时间排列的文章列表" data-article-count="114">
+<div class="latest-feed" aria-label="按更新时间排列的文章列表" data-article-count="115">
+  <article class="latest-feed-item">
+    <div class="latest-feed-meta"><span>ChatGPT</span><time datetime="2026-09-16">2026-09-16</time></div>
+    <h2><a href="/chatgpt/chatgpt-chinese-free-guide-mirror-gpt-6-20260916">ChatGPT 中文版：免费使用指南与镜像网站核验，GPT-6 能不能用怎么判断（2026最新）</a></h2>
+    <p>ChatGPT 中文版怎么免费用？本文用三分钟讲清官网和第三方平台的区别、免费额度到底有多少、镜像网站该怎么核验安全性，以及 GPT-6 这类新模型在哪些入口能用、怎么自己确认，不靠截图下结论。</p>
+  </article>
   <article class="latest-feed-item">
     <div class="latest-feed-meta"><span>ChatGPT</span><time datetime="2026-09-15">2026-09-15</time></div>
     <h2><a href="/chatgpt/chatgpt-account-banned-suspended-appeal-security-check-20260915">ChatGPT账号被封了怎么办？封禁与打不开的区分、申诉流程与账号安全排查【2026年9月】</a></h2>
